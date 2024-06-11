@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Loyalty Points</title>
+    <link rel="stylesheet" type="text/css" href="../styling/page1.css">
+    <script src="./script/page1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>MULAH</h1>
+        <h2>Hello, Welcome!</h2>
+        <p>Check Your Loyalty Points & Rewards</p>
+        <div class="input-group">
+            <label for="phone">Enter your mobile number</label>
+            <input type="tel" id="phone" placeholder="+60 Enter your mobile number" oninput="validatePhone()">
+            <span class="checkmark" id="checkmark">&#10003;</span>
+        </div>
+        <button onclick="checkLoyaltyPoints()">Check Loyalty Points</button>
+    </div>
+</body>
+</html>

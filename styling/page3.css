@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 300px;
+    text-align: center;
+}
+.container h1 {
+    color: #ee7420;
+}
+.data-group {
+    margin: 20px 0;
+}
+.data-group p {
+    margin: 5px 0;
+}
